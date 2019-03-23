@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		<!-- Link in CSS Files -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<!-- Start of the game -->
+		<div id = start_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Keeping Up With The Kardashians Trivia</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+
+
+		<!-- During Gameplay Container -->
+		<div id = mid_game_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Keeping Up With The kardashians Trivia</h1>
+
+			<!-- Game Timer -->
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			<!-- Game Questions -->
+
+			<h1>1. What year was Keeping Up With The Kardashians Created?</h1>
+			<!-- 1776 -->
+				<input type="radio" name="q1" value="1998">1998 
+				<input type="radio" name="q1" value="2000">2000 
+				<input type="radio" name="q1" value="2007">2007 
+				<input type="radio" name="q1" value="2003">2003 
+				
+
+			<h1>2. Where did the show take palce?</h1>
+			<!-- Queens College -->
+				<input type="radio" name="q2" value= "Chicago">Chicago
+				<input type="radio" name="q2" value="Alaska">Alaska 
+				<input type="radio" name="q2" value="New Jersey">New Jersey
+				<input type="radio" name="q2" value="California">California
+
+
+
+			<h1>3. Who is the oldest Kardashian sister?</h1>
+			<!-- The Daily Targum -->
+				<input type="radio" name="q3" value="Kim">Kim
+				<input type="radio" name="q3" value="Kris">Kris
+				<input type="radio" name="q3" value="Kourtney">Kourtney
+				<input type="radio" name="q3" value="Khloe">Khloe
+
+
+			<h1>4. How many kids does Kim have?</h1>
+			<!-- Over 48,000 -->
+				<input type="radio" name="q4" value="1">1
+				<input type="radio" name="q4" value="2">2
+				<input type="radio" name="q4" value="3">3
+				<input type="radio" name="q4" value="4">4
+	
+
+
+			<h1>5. Which Kardashian member was ever arrested?</h1>
+			<!-- University Drive  -->
+				<input type="radio" name="q5" value="Kris">Kris
+				<input type="radio" name="q5" value="Kylie">Kylie 
+				<input type="radio" name="q5" value="Kim">Kim 
+				<input type="radio" name="q5" value="Kourtney">Kourtney
+				<input type="radio" name="q5" value="Khloe">Khloe 
+			
+			<h1>6. How long did Kim's second marriage last?</h1>
+			<!-- Princeton -->
+				<input type="radio" name="q6" value="365 days">365 days
+				<input type="radio" name="q6" value="72 days">72 days
+				<input type="radio" name="q6" value="10 years">10 years
+				<input type="radio" name="q6" value="22 days">22 days 
+				
+
+			<h1>7. What is Kim's full name?</h1>
+			<!-- Jersey City -->
+				<input type="radio" name="q7" value="Kim Kardashian">Kim Kardashian
+				<input type="radio" name="q7" value="Kim Noel Kardashian">Kim Noel kardashian
+				<input type="radio" name="q7" value="Kim Noel Kardashian West">Kim Noel Kardashian West
+				<input type="radio" name="q7" value="Kim Kane Kardashian">Kim Kane Kardashian
+
+			<h1>8. Who do Kim make a sex tape with?</h1>
+			<!-- Cook/Douglass -->
+				<input type="radio" name="q8" value="Kanye">Kanye
+				<input type="radio" name="q8" value="Reggie Bush">Reggie Bush
+				<input type="radio" name="q8" value="Ray J">Ray J
+				<input type="radio" name="q8" value="Kris">kris
+
+			<h1>9. The Kardashians are American and part?</h1>
+			<!-- $11,750 -->
+				<input type="radio" name="q9" value="Spanish">Spanish
+				<input type="radio" name="q9" value="Egyptian">Egyptian
+				<input type="radio" name="q9" value="Armenian">Armenian
+				<input type="radio" name="q9" value="Italian">Italian
+
+			<h1>10. Who created the Yeezy brand ?</h1>
+			<!-- Over 1,700 -->
+				<input type="radio" name="q10" value="Kanye West">Kanye West
+				<input type="radio" name="q10" value="Kim">kim
+				<input type="radio" name="q10" value="Kylie">Kylie
+				<input type="radio" name="q10" value="Kendall">Kendall
+
+
+				<br>
+
+
+			<button id = done_button>Done!</button>
+
+		</div>
+
+
+
+
+		<!-- End of the game -->
+		<div id = end_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Keeping Up With The Kardashians Trivia</h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+
+
+		<!-- Link in jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!-- Link in JavaScript -->
+		<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
